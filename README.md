@@ -2,23 +2,24 @@
 
 Application Django d'assistance aux examens/quizz en ligne par intelligence Artificielle.  
 
+** Avertissement **: Tricher, c'est mal! Cette Application a été faite dans l'unique but de mettre en avant les faiblesses des examens en lignes.
+
 ## Fonctionnement
 
 Cette application permet de répondre aux questions d'un examen/quizz en ligne.  
-- La question peut-être sous un format sécurisé d'image, le texte sera quand même extrait.  
-- La réponse sera donné en quelques secondes.  
+- Même si les questions sont au format d'image, le texte sera quand même converti et extrait.  
+- La réponse sera donnée en quelques secondes.  
 
 Les étapes à suivres :  
-- Etape 1 : Appuye sur Windows + flèche gauche pour mettre cette page web sur le coté gauche, et la page web/document de ton examen sur le coté droit.  
-- Etape 2 : Dans ton test, zoom sur la question de ton choix avec Controle + Molette avant.  
-- Etape 3 : Rentre le premier mot et le dernier mot de la question.  
-- Etape 4 : Clique sur Envoyer.  
+- Etape 1 : Appuyez sur Windows + flèche gauche pour mettre la page de l'application sur le coté gauche, et la page web/le document de l'examen sur le coté droit.   
+- Etape 2 : Rentre le premier mot de la question.  
+- Etape 3 : Clique sur Envoyer.  
 
 Attention :  
+- Le texte de la question doit être lisible et pas trop petit, ne pas hésiter à zoomer sur la question.
 - Les réponses sont générées grace à open_AI, le système n'est pas infaillible et peut se tromper.  
-- Tricher, c'est mal, cette Application a été faite dans le but de mettre en avant certaines faiblesses des examens en lignes.
 
-![<exemple>](https://github.com/Morelromain/P19_Interro_AI/blob/main/captures/exemple.png
+![<exemple>](https://github.com/Morelromain/P19_Interro_AI/blob/main/captures/exemple.png)
 
 ## Installation
 
