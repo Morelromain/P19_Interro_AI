@@ -1,0 +1,29 @@
+
+<html>
+<head>
+    <title>Interro AI</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+
+
+
+
+<body>
+    <h1>Interro AI</h1>
+    <form action="" method="post">
+    {% csrf_token %}
+        <label for="debut_question">Le début de la question :</label>
+        <input type="text" name="debut_question" value="{{ debut_question }}">
+        <button type="submit">Je triche !</button>
+    </form>
+    <div class="question">
+        {{ question }}
+    </div>
+    <div class="reponse">
+        {{ reponse }}
+    </div>
+    <div>
+        <a href="{% url 'link' %}">Comment ça marche?</a>
+    </div>
+</body>
+</html>
