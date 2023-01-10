@@ -18,6 +18,8 @@ Attention :
 - Les réponses sont générées grace à open_AI, le système n'est pas infaillible et peut se tromper.  
 - Tricher, c'est mal, cette Application a été faite dans le but de mettre en avant certaines faiblesses des examens en lignes.
 
+![<exemple>](https://github.com/Morelromain/P19_Interro_AI/blob/main/captures/exemple.png
+
 ## Installation
 
 Version Python : 3.8.3 minimum  
