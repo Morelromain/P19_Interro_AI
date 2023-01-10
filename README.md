@@ -2,7 +2,9 @@
 
 Application Django d'assistance aux examens/quizz en ligne par intelligence Artificielle.  
 
-** Avertissement **: Tricher, c'est mal! Cette Application a été faite dans l'unique but de mettre en avant les faiblesses des examens en lignes.
+Avertissement : Tricher, c'est mal! Cette Application a été faite dans l'unique but de mettre en avant les faiblesses des examens en lignes.
+
+![<exemple>](https://github.com/Morelromain/P19_Interro_AI/blob/main/captures/exemple.png)
 
 ## Fonctionnement
 
@@ -18,8 +20,6 @@ Les étapes à suivres :
 Attention :  
 - Le texte de la question doit être lisible et pas trop petit, ne pas hésiter à zoomer sur la question.
 - Les réponses sont générées grace à open_AI, le système n'est pas infaillible et peut se tromper.  
-
-![<exemple>](https://github.com/Morelromain/P19_Interro_AI/blob/main/captures/exemple.png)
 
 ## Installation
 
