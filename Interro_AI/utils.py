@@ -23,15 +23,15 @@ def screen_printer():
 def image_conversion(debut_question):
     pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract'
     image = Image.open("captures/capture.png")
-    texte_total = pytesseract.image_to_string(image)
+    text_global = pytesseract.image_to_string(image)
     try :
-        debut_index = texte_total.index(debut_question)
-        texte_coupe = texte_total[debut_index:]
-        fin_index = texte_coupe.index('\n\n')
-        partie_texte = texte_total[debut_index:debut_index+fin_index]
-        question = f"La question : {partie_texte}"
+        start_index = text_global.index(debut_question)
+        half_text = text_global[start_index:]
+        end_index = half_text.index('\n\n')
+        text_part = text_global[start_index:start_index+end_index]
+        question = f"La question : {text_part}"
     except Exception:
-        question = f"Echec de la selection du texte, voici tout le texte trouvé de la capture : \n {texte_total}\n"
+        question = f"Echec de la selection du texte, voici tout le texte trouvé de la capture : \n {text_global}\n"
     return question
 
 def use_brain(question):
