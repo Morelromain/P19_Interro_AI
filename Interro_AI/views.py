@@ -30,6 +30,3 @@ def home_view(request):
             'reponse': reponse
         }
         )
-
-def link_view(request):
-    return render(request, 'link.html')
