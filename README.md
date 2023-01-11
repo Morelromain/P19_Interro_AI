@@ -1,8 +1,8 @@
+[Readme in French](#français)
+
 # Interro_AI
 
 Django application for AI-assisted online examination/quiz assistance.  
-
-[Readme in French](#français)  
 
 Warning: Cheating is bad! This application was made with the sole purpose of highlighting the weaknesses of online exams.  
 
