@@ -1,13 +1,8 @@
-
 <html>
 <head>
     <title>Interro AI</title>
     <link rel="stylesheet" type="text/css" href="/static/css/style.css">
 </head>
-
-
-
-
 <body>
     <h1>Interro AI</h1>
     <form action="" method="post">
@@ -22,8 +17,13 @@
     <div class="reponse">
         {{ reponse }}
     </div>
-    <div>
-        <a href="{% url 'link' %}">Comment ça marche?</a>
+    <a href="#" id="myLink">Comment ça marche?</a>
+    <div id="explication">
+        Etape 1 : Appuyez sur Windows + flèche gauche pour mettre cette page sur le coté gauche, et la page de l'examen sur le coté droit.<br><br>
+        Etape 2 : Rentrez le premier mot de la question.<br><br>
+        Etape 3 : Cliquez sur Envoyer.<br><br>
     </div>
+    {% load static %}
+    <script src="{% static 'help.js' %}"></script>
 </body>
 </html>
