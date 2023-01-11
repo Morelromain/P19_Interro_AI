@@ -1,8 +1,10 @@
-[Readme in French](#français)
-
 # Interro_AI
 
 Django application for AI-assisted online examination/quiz assistance.  
+
+[Readme in French](#français)
+
+![<exemple>](https://github.com/Morelromain/P19_Interro_AI/blob/main/captures/exemple.gif)
 
 Warning: Cheating is bad! This application was made with the sole purpose of highlighting the weaknesses of online exams.  
 
@@ -65,8 +67,6 @@ To access the application: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 Application Django d'assistance aux examens/quizz en ligne par intelligence Artificielle.  
 
 Avertissement : Tricher, c'est mal! Cette Application a été faite dans l'unique but de mettre en avant les faiblesses des examens en lignes.
-
-![<exemple>](https://github.com/Morelromain/P19_Interro_AI/blob/main/captures/exemple.png)
 
 ## Fonctionnement
 
