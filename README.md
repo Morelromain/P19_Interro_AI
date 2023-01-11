@@ -2,6 +2,8 @@
 
 Django application for AI-assisted online examination/quiz assistance.  
 
+[Readme in French](#français)  
+
 Warning: Cheating is bad! This application was made with the sole purpose of highlighting the weaknesses of online exams.  
 
 ![<exemple>](https://github.com/Morelromain/P19_Interro_AI/blob/main/captures/exemple.png)
@@ -57,8 +59,6 @@ In the Interro_AI\settings.py file, enter your api_key_AI in the `AI_KEY` variab
 To access the application: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 *[Documentation Django](https://docs.djangoproject.com/en/4.1/)*
-
-[Readme in French](#français)  
 
 ---
 
