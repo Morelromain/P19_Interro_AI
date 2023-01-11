@@ -20,6 +20,4 @@ from . import views
 
 urlpatterns = [
     path('', views.home_view, name='home'),
-    path('link/', views.link_view, name='link'),
 ]
-
